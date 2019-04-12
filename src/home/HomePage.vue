@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div>
-      <img class="robot" src="../assets/robot-home.png" aria-hidden="true" />
+      <img class="robot" src="../assets/robot-home.png"  aria-hidden="true" />
     </div>
     <div class="get-started">
       <a href="">Get started</a> building your first robot!
@@ -25,5 +25,9 @@ export default {
 }
 .robot {
   height: 300px;
+}
+.get-started {
+  padding-top: 20px;
+  font-size: 25px;
 }
 </style>
