@@ -58,7 +58,7 @@
 import { mapActions } from 'vuex';
 import createdHookMixin from './created-hook-mixin';
 import PartSelector from './PartSelector.vue';
-import CollapsibleSection from '../CollapsibleSection.vue';
+import CollapsibleSection from '../shared/CollapsibleSection.vue';
 
 export default {
   name: 'RobotBuilder',
